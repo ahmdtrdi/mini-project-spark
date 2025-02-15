@@ -3,16 +3,16 @@ This project leverages machine learning to predict house prices using the square
 
 Link Drive : https://drive.google.com/drive/folders/1OwJlN4NfQnr-CUcXfqIh2gpcFgZ9Y1FH?usp=sharing
 
-#Business Understanding
+# Business Understanding
 Goal: Develop an accurate prediction model for house prices based on living space area.
 
-#Data Understanding
+# Data Understanding
 We'll be working with housing data containing:
 
 - Target Variable: House prices
 - Primary Feature: Square footage of living space (sqft_living)
 
-#Data Preparation
+# Data Preparation
 Our preparation steps include:
 
 - Loading data
@@ -20,8 +20,9 @@ Our preparation steps include:
 - Feature scaling if necessary
 - Splitting data into training and testing sets
 
-#Modeling
-We implement Linear Regression using Linear Regression
+# Modeling
+
+implement Linear Regression using Linear Regression
 
 model = LinearRegression()
 
@@ -29,7 +30,7 @@ model.fit(X_train, y_train)
 
 y_pred = model.predict(X_test)
 
-#Evaluation
+# Evaluation
 
 ![lr](https://github.com/user-attachments/assets/d07e214c-cdb2-4259-a914-97ea5b8909e9)
 
