@@ -32,5 +32,10 @@ y_pred = model.predict(X_test)
 
 # Evaluation
 
+| Metric | Value |
+|--------|-------|
+| Mean Squared Error (MSE) | 0.1254 |
+| Root Mean Squared Error (RMSE) | 0.3541 |
+
 ![lr](https://github.com/user-attachments/assets/d07e214c-cdb2-4259-a914-97ea5b8909e9)
 
